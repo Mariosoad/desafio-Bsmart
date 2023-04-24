@@ -1,5 +1,5 @@
 import { useEffect, useRef, useMemo, useState } from 'react'
-import { UsersList } from '../UsersList'
+import { UsersList } from '../User/UsersList'
 import { User } from './typesList'
 
 function Home() {

@@ -1,4 +1,4 @@
-import { type User } from './Home/typesList'
+import { type User } from '../Home/typesList'
 import { Link } from "react-router-dom";
 import './UsersList.css'
 

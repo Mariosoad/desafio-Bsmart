@@ -10,6 +10,7 @@ export default function Profile() {
 
   return (
     <div className='profile'>
+    <h2>Prueba técnica</h2>
       <div className='child-profile'>
         <div className='back-ruta'>
           <Link to="/">Volver</Link>

@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+
+
 .head-container{
   display: flex;
   flex-direction: row;
@@ -41,4 +43,21 @@
   color: white;
   font-weight: 500;
   transition: 350ms;
+}
+
+@media (max-width: 480px){
+  #root {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .head-container{
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .container{
+    justify-content: center;
+  }
 }

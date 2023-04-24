@@ -7,7 +7,6 @@ export default function Profile() {
 
   const location = useLocation()
   const [userData, setUserData] = useState(location != null && location.state.user)
-  console.log(userData)
 
   return (
     <div className='profile'>
